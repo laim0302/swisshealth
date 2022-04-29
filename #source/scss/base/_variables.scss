@@ -1,0 +1,27 @@
+$font-size-base: 16px;
+
+// Статичные цвета
+$background: #FFF;
+$black: #000;
+$white: #FFF;
+$color1: #2C4455;
+$color2: #A57F7A;
+$color3: #74A3B6;
+$color4: #B2BEC0;
+$color5: #2A3D40;
+
+
+//Динамические цвета
+$color-text: $black;
+
+//--- ШРИФТЫ --- //
+$font-path: "/fonts";
+
+//--- РАЗМЕРЫ --- //
+$container-max-width: 1500px;
+$container-horizontal-padding: 30px;
+
+//--- BREAKPOINTS
+$screen-desktop: "(max-width: 1024px)";
+$screen-tablet: "(max-width: 767px)";
+$screen-mobile: "(max-width: 480px)";

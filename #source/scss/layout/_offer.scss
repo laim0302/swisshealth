@@ -1,0 +1,44 @@
+.offer {
+	padding: 90px 0 75px 0;
+
+	@media #{$screen-desktop} {
+		padding: 60px 0;
+	}
+
+	&__container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 80px;
+		align-items: center;
+
+		@media #{$screen-desktop} {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	&__content {
+		padding-right: 30px;
+
+		@media #{$screen-desktop} {
+			grid-row: 1;
+			margin-bottom: 30px;
+		}
+	}
+
+	&__h2 span {
+		color: $color2;
+	}
+
+	&__text {
+		font-size: 20px;
+		color: $color5;
+
+		@media #{$screen-desktop} {
+			font-size: 18px;
+		}
+
+		@media #{$screen-mobile} {
+			font-size: 16px;
+		}
+	}
+}

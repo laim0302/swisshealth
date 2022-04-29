@@ -1,0 +1,68 @@
+.header {
+	position: fixed;
+	z-index: 50;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 80px;
+	padding: 0 60px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: $white;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+
+	&__logo {}
+
+	&__bar {
+		position: relative;
+		display: flex;
+		align-items: center;
+		padding: 5px 8px;
+		color: $color5;
+		border: 1px solid $color4;
+		font-size: 18px;
+
+		@media #{$screen-desktop} {
+			display: none;
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 0;
+			background-color: #A57F7A;
+			z-index: -1;
+			transition: all 0.3s ease;
+		}
+
+		&:hover {
+			color: $white;
+			transition: all 0.3s ease;
+
+			&::before {
+				width: 100%;
+			}
+
+			& svg,
+			& span {
+				color: $white;
+			}
+		}
+
+		& svg {
+			margin-right: 10px;
+			color: $color2;
+		}
+
+		& span {
+			margin-left: 8px;
+			font-style: italic;
+			color: $color2;
+		}
+	}
+}

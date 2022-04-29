@@ -1,0 +1,26 @@
+/**
+* Vendors
+*/
+// Пример: @import "~plugin-name.css";
+// @import "~normalize.css";
+
+// Base
+// @import "base/functions";
+@import "base/variables";
+@import "base/generic";
+@import "base/fonts";
+
+// Blocks
+@import "blocks/icon";
+@import "blocks/container";
+@import "blocks/contform";
+@import "blocks/iti";
+
+
+//Layout Index
+@import "layout/header";
+@import "layout/hero";
+@import "layout/offer";
+@import "layout/myslider";
+@import "layout/contacts";
+@import "layout/footer";
