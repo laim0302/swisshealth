@@ -1,8 +1,7 @@
 /**
 * Vendors
 */
-// Пример: @import "~plugin-name.css";
-// @import "~normalize.css";
+
 
 // Base
 // @import "base/functions";
@@ -24,3 +23,10 @@
 @import "layout/myslider";
 @import "layout/contacts";
 @import "layout/footer";
+
+//Layout Privacy Policy
+@import "layout/header1";
+@import "layout/policy";
+
+//Layout Thanks
+@import "layout/thanks";

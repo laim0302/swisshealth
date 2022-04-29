@@ -9,41 +9,118 @@
 	<link rel="stylesheet" href="./css/swiper-bundle.min.css" type="text/css" media="all">
 	<link rel="stylesheet" href="./css/style.css" type="text/css" media="all">
 
-	<title>Swiss Medica</title>
+	<title>Privacy Policy</title>
 </head>
 
 
 <body>
 
-	<header class="header">
-		<!-- LOGO -->
-		<a href="https://ivlap.ru/" class="header__logo">
-			<img src="./img/logo.svg" alt="logo">
+	<header class="header header1">
+		<a class="header1__link" href="index.html">
+			<svg class="icon--home header1__icon">
+				<use xlink:href="./img/sprite.svg#home"></use>
+			</svg>
+			<p class="header1__text">HOME</p>
 		</a>
-		<!-- ------ -->
-		<a class="header__bar" href="tel:41 41 499 60 50">
+		<img class="header1__logo" src="./img/logo-white.svg" alt="logo">
+		<a class="header1__link header1__phone " href="tel:41 41 499 60 50">
 			<svg class="icon--phone">
 				<use xlink:href="./img/sprite.svg#phone"></use>
 			</svg>
-			<p>TREATMENT ENQUIRIES: 41 41 499 60 50 </p>
-			<span> CALL ME BACK</span>
+			<p class="header1__text">41 41 499 60 50</p>
 		</a>
 	</header>
 
 	<main>
+		<!-- СЕКЦИЯ HERO -->
+		<section class="policy-hero">
+			<picture>
+				<source type="image/webp" srcset="./img/policy1.webp">
+				<img class="policy-hero__img" src="./img/policy1.jpg" alt="Privat Policy image">
+			</picture>
+			<div class="hero__overlay"></div>
+			<div class="policy-hero__container">
+				<h1 class="policy-hero__h1">Privacy Policy</h1>
+				<svg class="icon--chevron-down policy-hero__svg">
+					<use xlink:href="./img/sprite.svg#chevron-down"></use>
+				</svg>
+			</div>
+		</section>
 
+		<!-- СЕКЦИЯ CONTENT -->
+		<section class="policy-content">
+			<div class="policy-content__container">
+				<h2 class="policy-content__h2">
+					Privacy Policy
+				</h2>
+				<p class="policy-content__text">
+					As required by EU and Swiss regulation, the following declaration details the manner in which we gather, use
+					and store personal information submitted to us via this website. Prior to using this website and/or submitting
+					any personal information we recommend that you take a moment to read this policy. By using this site you are
+					acknowledging and accepting the terms and conditions of our privacy policy.
+				</p>
+				<h2 class="policy-content__h2">
+					Collection of information
+				</h2>
+				<p class="policy-content__text">
+					We collect and store personally identifiable information, but only if we have received a declaration of
+					consent from the user, and unless stated otherwise, this data will only be stored in order to deal with your
+					particular request. This information generally consists of names, phone numbers, gender, email/IP/residential
+					addresses, etc. Information that is not personally identifiable (anonymous data that does not form a basis for
+					identification) does not fall in this category.
+				</p>
+				<h2 class="policy-content__h2">
+					Cookie/tracking technology
+				</h2>
+				<p class="policy-content__text">
+					This website may use cookie and tracking technology. Cookie and tracking technology supplies data that helps
+					us to analyse the profile of our visitors. This data consists of details such as browser type, number of
+					visitors to the site and their country of origin. This information assists us in keeping track of online
+					traffic flows, making the site more user friendly and tailoring it to the users interests. Visitors to our
+					site have the option to set their devices to accept all cookies, to notify them when a cookie is issued, or to
+					not receive any at all (which would mean that certain personalised services cannot be provided.) This
+					technology is solely used to enhance the users experience on our site and is never utilised to obtain
+					information about our visitors.
+				</p>
+				<h2 class="policy-content__h2">
+					Distribution of information
+				</h2>
+				<p class="policy-content__text">
+					We do not share any of your personal details or private information submitted on this website with any third
+					party, including mailing lists, under any circumstances
+				</p>
+				<h2 class="policy-content__h2">
+					Commitment to data security.
+				</h2>
+				<p class="policy-content__text">
+					We take all necessary measures to protect your personal data against loss, destruction, falsification,
+					manipulation and unauthorised access. The protection of your personal information is paramount and all details
+					are kept secure
+				</p>
+				<h2 class="policy-content__h2">
+					Privacy contact information.
+				</h2>
+				<p class="policy-content__text">
+					If you have any questions, concerns or requests regarding our privacy policy and/or the disclosure or deletion
+					of any personal information that we may have please contact us using the information below:
+				</p>
 
+				<p class="policy-content__contacts">
+					Phone: +41 41 541 11 52
+				</p>
+				<p class="policy-content__contacts">
+					E-mail: info@swisshealth.ch
+				</p>
+			</div>
+		</section>
 	</main>
-
 
 	<!-- FOOTER -->
 	<footer class="footer">
 		<div class="container footer__container">
-
 			<p class="footer__text">
-				© 2022 Swiss Medica | Switzerland
+				© 2022 Swiss Health | Switzerland
 			</p>
-
 
 			<div class="footer__socials">
 				<p class="footer__socials-text"> Follow us on:</p>
@@ -76,10 +153,6 @@
 		</div>
 
 	</footer>
-
-	<script type="text/javascript" src="./js/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
-	<script defer type="text/javascript" src="./js/swiper-bundle.min.js"></script>
-	<script defer type="text/javascript" src="./js/script.js"></script>
 </body>
 
 </html>

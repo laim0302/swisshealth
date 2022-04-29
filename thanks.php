@@ -1,2 +1,81 @@
-<?php
-echo 'Thanks';
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="./css/swiper-bundle.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="./css/style.css" type="text/css" media="all">
+
+	<title>Privacy Policy</title>
+</head>
+
+<body>
+
+	<header class="header header1">
+		<a class="header1__link" href="index.html">
+			<svg class="icon--home header1__icon">
+				<use xlink:href="./img/sprite.svg#home"></use>
+			</svg>
+			<p class="header1__text">HOME</p>
+		</a>
+		<img class="header1__logo" src="./img/logo-white.svg" alt="logo">
+		<a class="header1__link header1__phone " href="tel:41 41 499 60 50">
+			<svg class="icon--phone">
+				<use xlink:href="./img/sprite.svg#phone"></use>
+			</svg>
+			<p class="header1__text">41 41 499 60 50</p>
+		</a>
+	</header>
+
+	<main class="thanks">
+		<div class="thanks__container">
+			<h1 class="thanks__h1">Thank You</h1>
+			<p class="thanks__message">
+				Thank you for taking the time to contact The Swiss Health, we will be in touch shortly.
+			</p>
+		</div>
+	</main>
+
+	<!-- FOOTER -->
+	<footer class="footer">
+		<div class="container footer__container">
+			<p class="footer__text">
+				© 2022 Swiss Health | Switzerland
+			</p>
+
+			<div class="footer__socials">
+				<p class="footer__socials-text"> Follow us on:</p>
+				<a class="footer__socials-link" href="https://linkedin.com/" target="_blank">
+					<svg class="icon--social">
+						<use xlink:href="./img/sprite.svg#linkedin"></use>
+					</svg>
+				</a>
+				<a class="footer__socials-link" href="https://twitter.com/" target="_blank">
+					<svg class="icon--social">
+						<use xlink:href="./img/sprite.svg#twitter"></use>
+					</svg>
+				</a>
+				<a class="footer__socials-link" href="https://facebook.com/" target="_blank">
+					<svg class="icon--social">
+						<use xlink:href="./img/sprite.svg#facebook"></use>
+					</svg>
+				</a>
+				<a class="footer__socials-link" href="https://youtube.com/" target="_blank">
+					<svg class="icon--social">
+						<use xlink:href="./img/sprite.svg#youtube"></use>
+					</svg>
+				</a>
+				<a class="footer__socials-link" href="https://instagram.com/" target="_blank">
+					<svg class="icon--social">
+						<use xlink:href="./img/sprite.svg#instagram"></use>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
