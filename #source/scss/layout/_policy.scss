@@ -2,7 +2,7 @@
 	position: relative;
 
 	&__img {
-		max-height: 800px;
+		max-height: 980px;
 	}
 
 	&__container {
@@ -30,10 +30,15 @@
 		}
 	}
 
-	&__svg {
+	&__link {
 		color: $white;
+		animation: arrow-down 1s alternate ease-out infinite;
 
-		@media #{$screen-tablet} {
+		&:hover {
+			animation-play-state: paused;
+		}
+
+		@media #{$screen-desktop} {
 			display: none;
 		}
 	}

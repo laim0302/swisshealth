@@ -1,6 +1,70 @@
 /**
 * Vendors
 */
+/* inter-regular - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(""), url("/fonts/inter-v11-latin-regular.woff2") format("woff2"), url("/fonts/inter-v11-latin-regular.woff") format("woff");
+}
+/* inter-500 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local(""), url("/fonts/inter-v11-latin-500.woff2") format("woff2"), url("/fonts/inter-v11-latin-500.woff") format("woff");
+}
+/* inter-600 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(""), url("/fonts/inter-v11-latin-600.woff2") format("woff2"), url("/fonts/inter-v11-latin-600.woff") format("woff");
+}
+/* inter-700 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(""), url("/fonts/inter-v11-latin-700.woff2") format("woff2"), url("/fonts/inter-v11-latin-700.woff") format("woff");
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(""), url("/fonts/montserrat-v23-latin-regular.woff2") format("woff2"), url("/fonts/montserrat-v23-latin-regular.woff") format("woff");
+}
+/* montserrat-500 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local(""), url("/fonts/montserrat-v23-latin-500.woff2") format("woff2"), url("/fonts/montserrat-v23-latin-500.woff") format("woff");
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(""), url("/fonts/montserrat-v23-latin-600.woff2") format("woff2"), url("/fonts/montserrat-v23-latin-600.woff") format("woff");
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(""), url("/fonts/montserrat-v23-latin-700.woff2") format("woff2"), url("/fonts/montserrat-v23-latin-700.woff") format("woff");
+}
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -136,69 +200,26 @@ select {
   background-color: #A57F7A;
 }
 
-/* inter-regular - latin */
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local(""), url("/fonts/inter-v11-latin-regular.woff2") format("woff2"), url("/fonts/inter-v11-latin-regular.woff") format("woff");
+@-webkit-keyframes arrow-down {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
 }
-/* inter-500 - latin */
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local(""), url("/fonts/inter-v11-latin-500.woff2") format("woff2"), url("/fonts/inter-v11-latin-500.woff") format("woff");
-}
-/* inter-600 - latin */
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local(""), url("/fonts/inter-v11-latin-600.woff2") format("woff2"), url("/fonts/inter-v11-latin-600.woff") format("woff");
-}
-/* inter-700 - latin */
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local(""), url("/fonts/inter-v11-latin-700.woff2") format("woff2"), url("/fonts/inter-v11-latin-700.woff") format("woff");
-}
-/* montserrat-regular - latin */
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local(""), url("/fonts/montserrat-v23-latin-regular.woff2") format("woff2"), url("/fonts/montserrat-v23-latin-regular.woff") format("woff");
-}
-/* montserrat-500 - latin */
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local(""), url("/fonts/montserrat-v23-latin-500.woff2") format("woff2"), url("/fonts/montserrat-v23-latin-500.woff") format("woff");
-}
-/* montserrat-600 - latin */
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local(""), url("/fonts/montserrat-v23-latin-600.woff2") format("woff2"), url("/fonts/montserrat-v23-latin-600.woff") format("woff");
-}
-/* montserrat-700 - latin */
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local(""), url("/fonts/montserrat-v23-latin-700.woff2") format("woff2"), url("/fonts/montserrat-v23-latin-700.woff") format("woff");
+
+@keyframes arrow-down {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
 }
 .icon--phone {
   width: 18px;
@@ -890,7 +911,7 @@ select {
   position: relative;
 }
 .policy-hero__img {
-  max-height: 800px;
+  max-height: 980px;
 }
 .policy-hero__container {
   position: absolute;
@@ -924,11 +945,17 @@ select {
     font-size: 18px;
   }
 }
-.policy-hero__svg {
+.policy-hero__link {
   color: #FFF;
+  -webkit-animation: arrow-down 1s alternate ease-out infinite;
+          animation: arrow-down 1s alternate ease-out infinite;
 }
-@media (max-width: 767px) {
-  .policy-hero__svg {
+.policy-hero__link:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+@media (max-width: 1024px) {
+  .policy-hero__link {
     display: none;
   }
 }

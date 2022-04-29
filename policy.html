@@ -8,6 +8,7 @@
 
 	<link rel="stylesheet" href="./css/swiper-bundle.min.css" type="text/css" media="all">
 	<link rel="stylesheet" href="./css/style.css" type="text/css" media="all">
+	<script defer type="text/javascript" src="./js/script.js"></script>
 
 	<title>Privacy Policy</title>
 </head>
@@ -41,14 +42,16 @@
 			<div class="hero__overlay"></div>
 			<div class="policy-hero__container">
 				<h1 class="policy-hero__h1">Privacy Policy</h1>
-				<svg class="icon--chevron-down policy-hero__svg">
-					<use xlink:href="./img/sprite.svg#chevron-down"></use>
-				</svg>
+				<a class="policy-hero__link" href="#policy-content" title="Show more">
+					<svg class="icon--chevron-down policy-hero__svg">
+						<use xlink:href="./img/sprite.svg#chevron-down"></use>
+					</svg>
+				</a>
 			</div>
 		</section>
 
 		<!-- СЕКЦИЯ CONTENT -->
-		<section class="policy-content">
+		<section class="policy-content" id="policy-content">
 			<div class="policy-content__container">
 				<h2 class="policy-content__h2">
 					Privacy Policy
