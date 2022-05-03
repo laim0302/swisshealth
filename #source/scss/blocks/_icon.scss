@@ -1,46 +1,18 @@
 .icon {
 	&--phone {
-		width: 18px;
-		height: 18px;
+		width: rem(18px);
+		height: rem(18px);
 	}
 
-	&--social {
-		width: 24px;
-		height: 24px;
-	}
-
-	&--facebook {
-		width: 24px;
-		height: 24px;
-	}
-
-	&--instagram {
-		width: 24px;
-		height: 24px;
-	}
-
-	&--linkedin {
-		width: 24px;
-		height: 24px;
-	}
-
-	&--twitter {
-		width: 24px;
-		height: 24px;
-	}
-
-	&--youtube {
-		width: 24px;
-		height: 24px;
-	}
-
-	&--chevron-down {
-		width: 24px;
-		height: 24px;
-	}
-
+	&--social,
+	&--facebook,
+	&--instagram,
+	&--linkedin,
+	&--twitter,
+	&--youtube,
+	&--chevron-down,
 	&--home {
-		width: 24px;
-		height: 24px;
+		width: rem(24px);
+		height: rem(24px);
 	}
 }

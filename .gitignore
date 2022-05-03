@@ -1,2 +1,4 @@
 _dump/
+.vscode/
 *.log
+prepros.config

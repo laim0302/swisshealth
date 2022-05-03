@@ -20,17 +20,6 @@
 	url('#{$font-path}/inter-v11-latin-500.woff') format('woff');
 }
 
-/* inter-600 - latin */
-@font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 600;
-	font-display: swap;
-	src: local(''),
-	url('#{$font-path}/inter-v11-latin-600.woff2') format('woff2'),
-	url('#{$font-path}/inter-v11-latin-600.woff') format('woff');
-}
-
 /* inter-700 - latin */
 @font-face {
 	font-family: 'Inter';
@@ -63,17 +52,6 @@
 	src: local(''),
 	url('#{$font-path}/montserrat-v23-latin-500.woff2') format('woff2'),
 	url('#{$font-path}/montserrat-v23-latin-500.woff') format('woff');
-}
-
-/* montserrat-600 - latin */
-@font-face {
-	font-family: 'Montserrat';
-	font-style: normal;
-	font-weight: 600;
-	font-display: swap;
-	src: local(''),
-	url('#{$font-path}/montserrat-v23-latin-600.woff2') format('woff2'),
-	url('#{$font-path}/montserrat-v23-latin-600.woff') format('woff');
 }
 
 /* montserrat-700 - latin */

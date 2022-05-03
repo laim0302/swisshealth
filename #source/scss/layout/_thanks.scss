@@ -2,14 +2,14 @@
 	position: relative;
 	min-height: 100%;
 	height: auto;
-	margin-top: -138px;
+	margin-top: rem(-138px);
 
 	@media #{$screen-desktop} {
-		margin-top: -177px;
+		margin-top: rem(-177px);
 	}
 
 	@media #{$screen-mobile} {
-		margin-top: -133px;
+		margin-top: rem(-133px);
 	}
 
 	&__container {
@@ -20,9 +20,9 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		max-width: 620px;
+		max-width: rem(620px);
 		width: 100%;
-		padding: 0 30px;
+		padding: 0 rem(30px);
 
 	}
 
@@ -32,23 +32,23 @@
 		text-transform: none;
 
 		@media #{$screen-tablet} {
-			font-size: 40px;
+			font-size: rem(40px);
 		}
 
 		@media #{$screen-mobile} {
-			font-size: 30px;
+			font-size: rem(30px);
 		}
 	}
 
 	&__message {
 		color: $color5;
-		font-size: 20px;
-		line-height: 30px;
+		font-size: rem(20px);
+		line-height: rem(30px);
 		text-align: center;
 
 		@media #{$screen-mobile} {
-			font-size: 18px;
-			line-height: 24px;
+			font-size: rem(18px);
+			line-height: rem(24px);
 		}
 	}
 }

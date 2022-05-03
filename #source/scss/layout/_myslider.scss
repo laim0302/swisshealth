@@ -1,44 +1,48 @@
 .myslider {
 	background-color: $color5;
-	padding: 90px 0 0 0;
+	padding: rem(90px) 0 0 0;
 
 	@media #{$screen-tablet} {
-		padding-top: 70px;
+		padding-top: rem(70px);
 	}
 
 	&__title {
 		display: flex;
 		justify-content: center;
 		align-items: baseline;
-		margin-bottom: 40px;
+		margin-bottom: rem(40px);
 	}
 
 	&__h2 {
-		margin: 0 40px;
+		margin: 0 rem(40px);
 		color: $color4;
 	}
 
 	&__img {
-		border-radius: 12px;
-		box-shadow: 4px 4px 30px rgba($color: $black, $alpha: .3);
+		border-radius: rem(8px);
+		box-shadow: rem(4px) rem(4px) rem(15px) rgba($color: $black, $alpha: .3);
 	}
 }
 
 .swiper-button-prev,
 .swiper-button-next {
 	position: static;
-	height: 10px;
+	height: rem(10px);
 	color: $color4;
 	outline: none;
 }
 
 .swiper-container {
 	position: relative;
-	max-width: 1780px;
-	padding: 100px 0 180px 0;
+	max-width: rem(1780px);
+	padding: rem(100px) 0 rem(180px) 0;
 
 	@media #{$screen-tablet} {
-		padding: 80px 0 150px 0;
+		padding: rem(120px) 0 rem(150px) 0;
+	}
+
+	@media #{$screen-mobile} {
+		padding: rem(80px) 0 rem(150px) 0;
 	}
 }
 

@@ -1,14 +1,14 @@
 .offer {
-	padding: 90px 0 75px 0;
+	padding: rem(90px) 0 rem(75px) 0;
 
 	@media #{$screen-desktop} {
-		padding: 60px 0;
+		padding: rem(60px) 0;
 	}
 
 	&__container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		column-gap: 80px;
+		column-gap: rem(80px);
 		align-items: center;
 
 		@media #{$screen-desktop} {
@@ -17,11 +17,11 @@
 	}
 
 	&__content {
-		padding-right: 30px;
+		padding-right: rem(30px);
 
 		@media #{$screen-desktop} {
 			grid-row: 1;
-			margin-bottom: 30px;
+			margin-bottom: rem(30px);
 		}
 	}
 
@@ -30,15 +30,15 @@
 	}
 
 	&__text {
-		font-size: 20px;
+		font-size: rem(20px);
 		color: $color5;
 
 		@media #{$screen-desktop} {
-			font-size: 18px;
+			font-size: rem(18px);
 		}
 
 		@media #{$screen-mobile} {
-			font-size: 16px;
+			font-size: rem(16px);
 		}
 	}
 }

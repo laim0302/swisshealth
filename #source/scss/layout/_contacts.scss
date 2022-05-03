@@ -1,17 +1,17 @@
 .contacts {
-	padding: 140px 0 120px 0;
+	padding: rem(140px) 0 rem(120px) 0;
 	background-color: #F6F6F6;
 
 	@media #{$screen-desktop} {
-		padding: 90px 0 90px 0;
+		padding: rem(90px) 0 rem(90px) 0;
 	}
 
 	@media #{$screen-mobile} {
-		padding: 70px 0 60px 0;
+		padding: rem(70px) 0 rem(60px) 0;
 	}
 
 	&__container {
-		margin-bottom: 40px;
+		margin-bottom: rem(40px);
 		text-align: center;
 		display: flex;
 		flex-direction: column;
@@ -19,24 +19,24 @@
 	}
 
 	&__text {
-		max-width: 1020px;
+		max-width: rem(1020px);
 		color: #4C5A60;
-		font-size: 20px;
+		font-size: rem(20px);
 		text-align: center;
 
 		@media #{$screen-tablet} {
-			font-size: 18px;
+			font-size: rem(18px);
 		}
 
 		@media #{$screen-mobile} {
-			font-size: 16px;
+			font-size: rem(16px);
 		}
 	}
 
 	&__form-wrapper {
 		display: grid;
 		grid-template-columns: 5fr 7fr;
-		gap: 30px;
+		gap: rem(30px);
 
 		@media #{$screen-desktop} {
 			grid-template-columns: 1fr;
@@ -48,11 +48,11 @@
 	}
 
 	&__img {
-		max-width: 250px;
+		max-width: rem(250px);
 		border-radius: 50%;
 
 		@media #{$screen-mobile} {
-			max-width: 150px;
+			max-width: rem(150px);
 		}
 	}
 }

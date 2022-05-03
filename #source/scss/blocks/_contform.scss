@@ -18,20 +18,20 @@
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		margin-bottom: 50px;
-		font-size: 14px;
+		margin-bottom: rem(50px);
+		font-size: rem(14px);
 		text-transform: uppercase;
 
 		@media #{$screen-tablet} {
-			margin-bottom: 30px;
+			margin-bottom: rem(30px);
 		}
 
 		@media #{$screen-mobile} {
-			font-size: 12px;
+			font-size: rem(12px);
 		}
 
 		&:not(:last-child) {
-			margin-right: 30px;
+			margin-right: rem(30px);
 
 			@media #{$screen-tablet} {
 				margin-right: 0;
@@ -41,40 +41,38 @@
 
 	&__input {
 		width: 100%;
-		font-size: 18px;
+		font-size: rem(18px);
 
 		@media #{$screen-mobile} {
-			font-size: 16px;
+			font-size: rem(16px);
 		}
 	}
 
 	&__select {
 		width: 100%;
-		padding-top: 9px;
-		font-size: 18px;
+		padding-top: rem(9px);
+		font-size: rem(18px);
 
 		@media #{$screen-mobile} {
-			font-size: 16px;
+			font-size: rem(16px);
 		}
 	}
 
 	&__textarea {
 		background-color: transparent;
 		resize: none;
-		margin-top: 10px;
-		font-size: 18px;
+		margin-top: rem(10px);
+		font-size: rem(18px);
 
 		@media #{$screen-mobile} {
-			font-size: 16px;
+			font-size: rem(16px);
 		}
 	}
 
 	&__btn {
-
-		line-height: 20px;
-		padding-top: 20px;
-		padding-bottom: 35px;
-		font-weight: 500;
+		line-height: rem(20px);
+		padding-top: rem(20px);
+		padding-bottom: rem(35px);
 
 		@media #{$screen-mobile} {
 			width: 100%;

@@ -11,11 +11,12 @@
 	<link rel="stylesheet" href="./css/demo.css" type="text/css" media="all">
 	<link rel="stylesheet" href="./css/style.css" type="text/css" media="all">
 
-	<script defer type="text/javascript" src="./js/swiper-bundle.min.js"></script>
-	<script defer type="text/javascript" src="./js/intlTelInput.min.js"></script>
-	<script defer type="text/javascript" src="./js/script.js"></script>
+	<script defer type="text/javascript" src="./script/swiper-bundle.min.js"></script>
+	<script defer type="text/javascript" src="./script/intlTelInput.min.js"></script>
+	<script defer type="text/javascript" src="./script/just-validate3.3.3.min.js"></script>
+	<script defer type="text/javascript" src="./script/script.js"></script>
 
-	<title>SwissHealth</title>
+	<title>Swiss Health</title>
 </head>
 
 
@@ -59,7 +60,7 @@
 			<div class="container offer__container">
 				<img src="/img/02_offer.jpg">
 				<div class="offer__content">
-					<h2>Exclusive treatment <span>for UHNWI</span></h2>
+					<h2 class="offer__h2">Exclusive treatment <span>for UHNWI</span></h2>
 					<p class="offer__text">We offer levels of service and comfort that enable us to care for private individuals
 						who demand the
 						very best. Each client has exclusive use of one of our luxurious residences during their stay at The
@@ -158,37 +159,37 @@
 				</div>
 
 				<!-- ФОРМА ОТПРАВКИ ДАННЫХ -->
-				<form class="contform" action="./thanks.php" method="post" name="contform">
+				<form class="contform" action="#" method="post" name="contform">
 					<fieldset class="contform__fieldset">
 						<div class="contform__row">
 							<label class="contform__label">
 								<p>First name<span> *</span></p>
-								<input class="contform__input" type="text" name="firstname" value="">
+								<input class="contform__input input-firstname" type="text" name="firstname" value="">
 							</label>
 							<label class="contform__label">
 								<p>Last name<span> *</span></p>
-								<input class="contform__input" type="text" name="lastname" value="">
+								<input class="contform__input input-lastname" type="text" name="lastname" value="">
 							</label>
 						</div>
 						<div class="contform__row">
 							<label class="contform__label">
 								<p>E-mail<span> *</span></p>
-								<input class="contform__input" type="email" name="email" value="">
+								<input class="contform__input input-email" type="email" name="email" value="">
 							</label>
 							<label class="contform__label">
 								<p>Phone<span> *</span></p>
-								<input class="contform__input" id="phone" type="tel" name="full_phone" value="">
+								<input class="contform__input input-tel" id="phone" type="tel" name="full_phone" value="">
 								<span class="hide" id="valid-msg"></span>
 								<span class="hide" id="error-msg"></span>
 							</label>
 							<label class="contform__label">
 								<p>Country<span> *</span></p>
-								<select class="contform__select" id="address-country" name="country"></select>
+								<select class="contform__select select-country" id="address-country" name="country"></select>
 							</label>
 						</div>
 						<label class="contform__label">
 							<p>Message<span> *</span></p>
-							<textarea class="contform__textarea" name="message" rows="7"></textarea>
+							<textarea class="contform__textarea textarea-message" name="message" rows="7"></textarea>
 						</label>
 					</fieldset>
 					<div class="contform__row">

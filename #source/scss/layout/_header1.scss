@@ -2,20 +2,20 @@
 	background-color: $color5;
 
 	@media #{$screen-tablet} {
-		padding: 0 30px;
-		min-height: 50px;
+		padding: 0 rem(30px);
+		min-height: rem(50px);
 	}
 
 	&__logo {
-		max-height: 32px;
+		max-height: rem(32px);
 		width: auto;
 
 		@media #{$screen-tablet} {
-			max-height: 24px;
+			max-height: rem(24px);
 		}
 
 		@media #{$screen-mobile} {
-			max-height: 20px;
+			max-height: rem(20px);
 		}
 	}
 
@@ -26,7 +26,7 @@
 		color: $white;
 		font-weight: 500;
 		letter-spacing: .2em;
-		margin-right: 45px;
+		margin-right: rem(45px);
 
 		@media #{$screen-tablet} {
 			margin-right: 0;
@@ -36,11 +36,11 @@
 			content: "";
 			position: absolute;
 			left: 50%;
-			bottom: -4px;
+			bottom: rem(-4px);
 			transform: translateX(-50%);
 			display: block;
 			width: 0;
-			height: 1px;
+			height: rem(1px);
 			background-color: $white;
 			transition: .3s;
 		}
@@ -67,12 +67,11 @@
 		margin-right: 0;
 
 		& svg {
-			width: 16px;
-			height: 16px;
-			margin-right: 8px;
+			width: rem(16px);
+			height: rem(16px);
+			margin-right: rem(8px);
 		}
 	}
-
 
 	&__text {
 
@@ -80,6 +79,4 @@
 			display: none;
 		}
 	}
-
-
 }

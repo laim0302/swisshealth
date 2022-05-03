@@ -18,8 +18,8 @@ $color-text: $black;
 $font-path: "/fonts";
 
 //--- РАЗМЕРЫ --- //
-$container-max-width: 1500px;
-$container-horizontal-padding: 30px;
+$container-max-width: rem(1500px);
+$container-horizontal-padding: rem(30px);
 
 //--- BREAKPOINTS
 $screen-desktop: "(max-width: 1024px)";

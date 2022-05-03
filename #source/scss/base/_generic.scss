@@ -18,14 +18,14 @@ html {
 
 body {
 	height: 100%;
-	min-width: 320px;
+	min-width: rem(320px);
 	margin: 0;
 	padding: 0;
 	color: $color-text;
 	font-family: "Inter", "Montserrat", "Arial", "Helvetica", sans-serif;
 	font-size: $font-size-base;
 	font-style: normal;
-	font-weight: regular;
+	font-weight: 400;
 	text-rendering: optimizeLegibility;
 	background-color: $background;
 }
@@ -50,43 +50,39 @@ img {
 }
 
 h1 {
-	margin: 0 0 30px 0;
+	margin: 0 0 rem(30px) 0;
 	font-family: 'Montserrat';
 	font-weight: 500;
-	font-size: 46px;
+	font-size: rem(46px);
 	color: $white;
 	text-transform: uppercase;
 }
 
 h2 {
-	margin: 0 0 30px 0;
+	margin: 0 0 rem(30px) 0;
 	font-family: 'Montserrat';
 	font-weight: 500;
-	font-size: 34px;
+	font-size: rem(34px);
 	text-transform: uppercase;
 	color: $black;
 
 	@media #{$screen-desktop} {
-		margin: 0 0 20px 0;
-		font-size: 30px;
+		margin: 0 0 rem(20px) 0;
+		font-size: rem(30px);
 	}
 
 	@media #{$screen-tablet} {
-		font-size: 26px;
+		font-size: rem(26px);
 	}
 }
 
 h3 {
-	margin: 0 0 30px 0;
+	margin: 0 0 (30px) 0;
 	font-family: 'Montserrat';
 	font-weight: 500;
-	font-size: 28px;
+	font-size: rem(28px);
 	text-transform: uppercase;
 	color: $color2;
-
-	@media #{$screen-tablet} {}
-
-	@media #{$screen-mobile} {}
 }
 
 
@@ -102,10 +98,10 @@ li {
 }
 
 input {
-	padding: 5px 0;
+	padding: rem(5px) 0;
 	background-color: transparent;
 	border: none;
-	border-bottom: 1px solid $color4;
+	border-bottom: rem(1px) solid $color4;
 	outline: none;
 }
 
@@ -113,14 +109,14 @@ select {
 	border: none;
 	outline: none;
 	background-color: transparent;
-	border-bottom: 1px solid $color4;
+	border-bottom: rem(1px) solid $color4;
 }
 
 .btn {
-	padding: 10px 40px;
+	padding: rem(10px) rem(40px);
 	color: $black;
 	border: none;
-	border-radius: 2px;
+	border-radius: rem(3px);
 	background-color: $color4;
 	outline: none;
 	font-family: "Montserrat";

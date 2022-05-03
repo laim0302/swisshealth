@@ -1,12 +1,12 @@
 .footer {
-	padding: 40px 0 70px;
+	padding: rem(40px) 0 rem(70px);
 	color: $white;
-	font-size: 15px;
+	font-size: rem(15px);
 	background-color: $color5;
 
 	@media #{$screen-mobile} {
-		padding: 30px 0 40px;
-		font-size: 13px;
+		padding: rem(30px) 0 rem(40px);
+		font-size: rem(13px);
 	}
 
 	&__container {
@@ -21,11 +21,11 @@
 	}
 
 	&__text {
-		margin-right: 80px;
+		margin-right: rem(80px);
 
 		@media #{$screen-desktop} {
 			margin-right: 0;
-			margin-bottom: 20px;
+			margin-bottom: rem(20px);
 		}
 	}
 
@@ -36,7 +36,7 @@
 
 		@media #{$screen-desktop} {
 			margin-right: 0;
-			margin-bottom: 20px;
+			margin-bottom: rem(20px);
 		}
 
 		&::after {
@@ -44,7 +44,7 @@
 			display: block;
 			position: absolute;
 			left: 0;
-			bottom: 5px;
+			bottom: rem(5px);
 			width: 0;
 			height: 1px;
 			background-color: $white;
@@ -66,10 +66,10 @@
 
 	&__socials-text {
 		color: $color4;
-		margin-right: 30px;
+		margin-right: rem(30px);
 
 		@media #{$screen-mobile} {
-			margin-right: 20px;
+			margin-right: rem(20px);
 		}
 	}
 
@@ -81,15 +81,11 @@
 		}
 
 		&:not(:last-child) {
-			margin-right: 24px;
+			margin-right: rem(24px);
 
 			@media #{$screen-mobile} {
-				margin-right: 16px;
+				margin-right: rem(16px);
 			}
 		}
 	}
-
-
-
-
 }
